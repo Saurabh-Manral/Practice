@@ -6,6 +6,10 @@ public class Subtraction {
         System.out.println("Enter second number: ");
         int num2 = sc.nextInt();
 
-        System.out.println("The difference of " + num1 + " and " + num2 + " is: " + (num1 - num2));
+        System.out.println("The difference of " + num1 + " and " + num2 + " is: " + new Subtraction().subtract(num1, num2));
+    }
+
+    public int subtract(int a , int b) {
+        return a - b;
     }
 }
